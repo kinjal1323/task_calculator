@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("i1.jfif") ;
+  background-repeat: no-repeat;
+  background-size: 1400px 600px;
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-gap: 10px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+h1
+{
+  margin: 150px;
+}
+
+.calculator button {
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #777;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #999;
+}
+
+.display {
+  grid-column: span 4;
+  background-color: #333;
+  color: white;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+
+}
